@@ -7,15 +7,24 @@ On this service, users can post messages and rate other users' posts by giving t
 
 ### Template for filling .env file (create in a common directory)
 
-DB_TYPE=postgresql                        _The PostgreSQL database used_
-DB_DRIVER=asyncpg                         _Asynchronous driver_
-POSTGRES_USER=postgres                    _Specify username_  
-POSTGRES_PASSWORD=postgres                _Specify the password to connect to the database_  
-DB_NAME=postgres                          _Specify the name of the created database_ 
-DB_HOST=db                                _Specify the name of the service (container)_  
-DB_PORT=5432                              _Specify the port to connect to the database_
-SECRET=secret                             _Specify the secret key for hashing user passwords_ 
-EMAIL_HUNTER_KEY=your_key                 _Specify API key for Email Hunter_
+DB_TYPE=postgresql                        _(The PostgreSQL database used)_
+
+DB_DRIVER=asyncpg                         _(Asynchronous driver)_
+
+POSTGRES_USER=postgres                    _(Specify username)_
+
+POSTGRES_PASSWORD=postgres                _(Specify the password to connect to the database)_
+
+DB_NAME=postgres                          _(Specify the name of the created database)_
+
+DB_HOST=db                                _(Specify the name of the service (container))_
+
+DB_PORT=5432                              _(Specify the port to connect to the database)_
+
+SECRET=secret                             _(Specify the secret key for hashing user passwords)_
+
+EMAIL_HUNTER_KEY=your_key                 _(Specify API key for Email Hunter)_
+
 
 
 ### Installation and usage
